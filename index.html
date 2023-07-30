@@ -1,0 +1,171 @@
+<!-- DOCTYPE - declaración de archivo tipo HTML -->
+<!DOCTYPE html>
+<!-- html - encapsular todo nuestro código - lang (language) -->
+<html lang="es">
+<!-- HEAD (Metadata) información para el navegador -->
+<head>
+    <!-- CHARSET - conjunto de caracteres -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- title - Nombre de sitio web en ventana -->
+    <title>Animalia</title>
+    <!-- link - para enlazar html + css rel: relación del docu y href: ubicación del documento -->
+    <link rel="stylesheet" href="/style.css">
+    <!-- link para conectar nueva fuente Shippori -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho&display=swap" rel="stylesheet">
+
+</head>
+<!-- BODY - Lo que ve el usuarix -->
+<body>
+    <!-- HR - Línea separadora -->
+    <hr>
+    <h1><link href='https://fonts.googleapis.com/css?family=Cabin+Condensed:700' rel='stylesheet' type='text/css'>
+
+        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+             width="450px" height="240px" xml:space="preserve">
+          <defs>
+            <pattern id="water" width=".25" height="1.1" patternContentUnits="objectBoundingBox">
+              <path fill="#000" d="M0.25,1H0c0,0,0-0.659,0-0.916c0.083-0.303,0.158,0.334,0.25,0C0.25,0.327,0.25,1,0.25,1z"/>
+            </pattern>
+            
+            <text id="text" transform="translate(2,116)" font-family="'Cabin Condensed'" font-size="161.047">Animalia</text>
+            
+            <mask id="text-mask">
+              <use x="0" y="0" xlink:href="#text" opacity="1" fill="#ffffff"/>
+            </mask>
+            
+            <g id="eff">
+              <use x="0" y="0" xlink:href="#text" fill="#a2a3a5"/>
+          
+          <rect class="water-fill" mask="url(#text-mask)" fill="url(#water)" x="-300" y="50" width="1200" height="120" opacity="0.3">
+            <animate attributeType="xml" attributeName="x" from="-300" to="0" repeatCount="indefinite" dur="2s"/>
+          </rect>
+           <rect class="water-fill" mask="url(#text-mask)" fill="url(#water)" y="45" width="1600" height="120" opacity="0.3">
+            <animate attributeType="xml" attributeName="x" from="-400" to="0" repeatCount="indefinite" dur="3s"/>
+          </rect>
+              
+          <rect class="water-fill" mask="url(#text-mask)" fill="url(#water)" y="55" width="800" height="120" opacity="0.3">
+            <animate attributeType="xml" attributeName="x" from="-200" to="0" repeatCount="indefinite" dur="1.4s"/>
+          </rect>
+              <rect class="water-fill" mask="url(#text-mask)" fill="url(#water)" y="55" width="2000" height="120" opacity="0.3">
+            <animate attributeType="xml" attributeName="x" from="-500" to="0" repeatCount="indefinite" dur="2.8s"/>
+          </rect>
+            </g>
+          </defs>
+         
+              <use xlink:href="#eff" opacity="0.9" style="mix-blend-mode:color-burn"/>
+        
+        </svg>
+        </h1>
+
+        <!-- ÍNDICE CON ANCLAS -->
+    <div>
+        <a href="#pandas">Pandas</a> 
+        <br>
+        <a href="#axolotes">Axolotes</a>
+        <br>
+        <a href="#gatos">Gatos</a>
+    </div>
+
+    <!-- IMÁGENES A TRAVÉS DEL INTERNET -->
+    <img src="https://cdn0.ecologiaverde.com/es/posts/7/9/6/que_son_los_animales_3697_orig.jpg" alt="">
+
+    <img src="https://images.vexels.com/content/71474/preview/cartoon-domestic-and-wild-animals-pack-d064a1.png" alt="">
+
+    <div>
+        <!-- LISTAS -->
+        <h3>Los mamíferos más bonitos</h3>
+        <!-- OL - ordered list - listas ordenadas -->
+        <ol>
+            <!-- li - item list - elemento de lista -->
+            <li>Ballenas</li>
+            <li>Zorro</li>
+            <li>Leopardus wiedii </li>
+            <li>Gatitos</li>
+            <li>Jirafas</li>
+            <li>Tlacuaches</li>
+            <li>Pandas</li>
+            <li>Nutrias</li>
+            <li>Monitos</li>
+            <li>Conejos</li>
+        </ol>
+
+        <h3>Los animales más grandes</h3>
+        <!-- UL - unordered list - lista NO ordenada -->
+        <ul>
+            <li>Ballena azul antártica</li>
+            <li>Gusano cordón de bota</li>
+            <li>Medusa crin de león</li>
+            <li>Rorcual común</li>
+            <li>Cachalote</li>
+        </ul>
+    </div>
+
+    <!-- PÁRRAFOS -->
+    <h3 id="pandas">Sobre los Pandas</h3>
+    <p class="p-pandas">
+        Esta especie de oso aunque parezca que bebió de la fuente de la juventud porque siempre luce joven y rozagante,
+        es de hecho, una criatura realmente ancestral que ha habitado nuestro planeta desde hace más de 2 millones de
+        años. Sin embargo y lamentablemente, su población a disminuido de forma drástica en las últimas décadas, hasta
+        el punto de quedar sólo 1000 ejemplares en todo el mundo.
+        1. El carnívoro al que le gusta el bambú
+        A pesar que el oso panda es considerado un animal carnívoro, su alimento favorito es el bambú. Es un gran
+        devorador de esta planta, hasta el punto, que puede pasar más de medio día sólo saboreándola y degustándola.
+        Diariamente un panda necesita comer al menos 12 kilos de bambú para cubrir sus necesidades alimenticias.
+        2. Ciegos y blancos
+        Los osos panda al nacer son ciegos y su piel es entre blanca y rosada, esto de debe a una reacción química entra
+        la piel del recién nacido y la saliva de la madre. Con el paso del tiempo van cogiendo las manchas negras que
+        los hacen tan irresistibles, en especial, los círculos negros que llevan en los ojos, orejas y patas.
+    </p>
+
+    <h3 id="axolotes">Sobre los axolotes</h3>
+    <p>
+        El axolote es un vertebrado anfibio representado por 33 especies del género Ambystoma
+        que se encuentran presentes de manera natural en América, con una distribución desde
+        suroeste de Alaska y sur de Canadá, hasta el centro de México (SEMARNAT, 2018; Frost,
+        2019). Poca más de la mitad de las especies de Ambystoma se presentan en nuestro país,
+        es decir, en México tenemos18 especies que representan el 54.5% del total de las especies
+        del género, de las cuales 17 son endémicas a México (Ávila Akerberg et al., 2021), lo que
+        significa que no se encuentran en ninguna otra parte del mundo. La mayor parte de estas
+        especies endémicas se distribuyen en las cadenas montañosas de la Sierra Madre Oriental,
+        el Eje Volcánico Transversal y la Sierra Madre Occidental (Shaffer, 1989; Frost, 2019; Ávila
+        Akerberg et al., 2021).
+        Por sus características como vertebrados anfibios, los axolotes habitan cuerpos de
+        agua como lagos y arroyos, donde encuentran las condiciones ambientales que les
+        permiten sobrevivir, sin embargo, se encuentran considerados como vulnerables debido a
+        que su ciclo de vida es en parte acuático y en parte terrestre, en consecuencia, la
+        alteración tanto del agua como de la tierra, los hace doblemente vulnerables a la
+        perturbación. Estos ambientes han sido drásticamente modificados por la presencia
+        humana y en consecuencia las poblaciones de los axolotes se han reducido drásticamente,
+        debido a la modificación, alteración y desecación de su hábitat, y en muchos casos con la
+        invasión de especies exóticas invasoras.
+    </p>
+
+    <h3 id="gatos">Sobre los gatos</h3>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipiscing elit sagittis class laoreet, leo semper at netus porta
+        suscipit ante inceptos magna. Inceptos a libero natoque felis proin pharetra metus, nam ante parturient placerat
+        justo dis erat, ultrices potenti lacinia sapien fermentum maecenas. Sociis nisl libero morbi pulvinar a est
+        habitant viverra parturient nisi hendrerit tincidunt, venenatis aenean eget cubilia lacinia natoque auctor ante
+        vitae fermentum ullamcorper purus ut, cras ornare nulla enim sodales quam maecenas sed condimentum consequat
+        risus.
+
+        Inceptos felis non ac venenatis lectus et varius maecenas pharetra urna, senectus hendrerit tincidunt quis
+        fringilla cum erat porta mollis, mauris dapibus quisque elementum vel nunc vestibulum nam per. Habitant nisi
+        venenatis per vitae tellus vehicula sociosqu pellentesque volutpat, potenti nulla porttitor nunc eu porta
+        suspendisse etiam ultrices sapien, cras interdum class pulvinar nostra nam fringilla phasellus massa, bibendum
+        maecenas proin cum dapibus sed tortor natoque. Himenaeos massa curae feugiat senectus eu facilisi nostra
+        conubia, sollicitudin justo congue in posuere felis sed eget, a mi ante turpis iaculis netus lobortis. Quisque
+        varius senectus posuere dictum semper cursus aliquam ligula, at feugiat enim leo eu sagittis aliquet magnis,
+        netus sed suspendisse molestie diam quis sem.
+
+        Aenean dis orci netus volutpat inceptos praesent proin pretium, lectus curabitur massa neque ullamcorper in
+        laoreet euismod est, per dictumst vivamus ultrices feugiat at etiam. Orci lacus praesent sollicitudin arcu
+        quisque posuere neque mauris, luctus semper cras aliquam phasellus eros tellus suscipit, congue montes class
+        metus at morbi augue. Cum turpis dignissim ad euismod malesuada nostra morbi, leo mi integer blandit urna ligula
+        venenatis nullam, inceptos posuere varius tortor nec platea.
+    </p>
+</body>
+</html>
